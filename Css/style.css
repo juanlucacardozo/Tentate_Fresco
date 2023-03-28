@@ -1,0 +1,32 @@
+
+form {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+.navbar , body{
+    background: linear-gradient(to right, #c9e265, #ffde59)!important;
+    
+}
+
+.nav-link , .navbar-brand{
+    color:  #00c2b0!important;
+}
+
+.contenido{
+    float: left;
+    width: calc( 80% - 80px);
+    min-height: 500px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px );
+    
+}
+.card-img-top{
+    width: 286px;
+    height: 214px;
+}
+
