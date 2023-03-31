@@ -1,0 +1,17 @@
+.color {
+  background: rgb(245, 255, 253);
+}
+.navbar {
+  background: linear-gradient(to right, #c9e265, #ffde59) !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #00a393 !important;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
