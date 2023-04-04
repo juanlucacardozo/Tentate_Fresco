@@ -1,32 +1,35 @@
+body{
+    background: rgb(245, 255, 253)!important;
 
-form {
+}
+
+
+header{
+    z-index: 1500!important;
+}
+
+
+.suscripcion {
     display: flex !important;
     justify-content: center !important;
     flex-direction: column !important;
 }
 
-.navbar , body{
+.navbar{
     background: linear-gradient(to right, #c9e265, #ffde59)!important;
     
 }
 
-.nav-link , .navbar-brand{
-    color:  #00c2b0!important;
+ul{
+    list-style-type: none;
 }
 
-.contenido{
-    float: left;
-    width: calc( 80% - 80px);
-    min-height: 500px;
+.buscados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px !important;
+    padding: 3px;
+    margin: 2px;
+    width: 140px;
 }
-
-aside{
-    float: left;
-    width: calc(20% - 20px );
-    
-}
-.card-img-top{
-    width: 286px;
-    height: 214px;
-}
-
