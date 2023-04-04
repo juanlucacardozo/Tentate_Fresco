@@ -1,5 +1,10 @@
-.color {
-  background: rgb(245, 255, 253);
+body {
+  background: rgb(245, 255, 253) !important;
+}
+.suscripcion {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
 }
 .navbar {
   background: linear-gradient(to right, #c9e265, #ffde59) !important;
